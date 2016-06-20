@@ -1,7 +1,7 @@
 var path = require('path');
 
 describe('Contacts', function() {
-	browser.get('http://localhost:8080');
+	browser.get('https://learn-angular-dakotalmartinez.c9users.io/angular-directives/angular-multiple-directives-lab-v-000/index.html');
 	it('should add a contact', function() {
 		element(by.model('vm.name')).sendKeys('Gary');
 		element(by.model('vm.phoneNumber')).sendKeys('0782837819');
